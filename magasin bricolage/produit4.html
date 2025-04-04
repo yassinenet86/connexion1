@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Truelle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Truelle</h1>
+        <nav>
+            <a href="catalogue.html">Retour au Catalogue</a>
+            <a href="panier.html">Panier</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product-detail">
+            <img src="./image/truelle.jpeg" alt="Truelle">
+            <p>Prix : 6.99 €</p>
+            <p>Description : Parfaite pour les travaux de maçonnerie et jardinage.</p>
+            <button onclick="addToCart('Truelle', 6.99)">Ajouter au panier</button>
+        </div>
+        <!-- Menu déroulant pour la quantité -->
+        <label for="quantity">Choisissez une quantité :</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Magasin de Bricolage</p>
+    </footer>
+    <script src="script produit.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue - Magasin de Bricolage</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Catalogue de Produits</h1>
+        <nav>
+            <a href="cataloge.html">Accueil</a>
+            <a href="panier.html">Panier</a>
+        </nav>
+    </header>
+    <main>
+        <section class="cards">
+            <div class="card">
+                <img src="./image/perceuse sans fil.jpg" alt="Perceuse électrique">
+                <h3>Perceuse électrique</h3>
+                <p>Prix : 49.99 €</p>
+                <button onclick="redirectToProduct('produit1.html')">Voir le produit</button>
+            </div>
+            <div class="card">
+                <img src="./image/meuleuse.jpg" alt="Meuleuse électrique">
+                <h3>Meuleuse électrique</h3>
+                <p>Prix : 59.99 €</p>
+                <button onclick="redirectToProduct('produit2.html')">Voir le produit</button>
+            </div>
+        </section>
+        <section>
+            <div class="card">
+                <img src="./image/pistolet à colle.jpg" alt="Pistolet">
+                <h3>Pistolet à colle</h3>
+                <p>Prix : 10.99 €</p>
+                <button onclick="redirectToProduct('produit3.html')">Voir le produit</button>
+            </div>
+            <div class="card">
+                <img src="./image/truelle.jpeg" alt="truelle">
+                <h3>truelle</h3>
+                <p>Prix : 6.99 €</p>
+                <button onclick="redirectToProduct('produit4.html')">Voir le produit</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Magasin de Bricolage</p>
+    </footer>
+    <script src="script catalogue.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Panier</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Votre Panier</h1>
+        <nav>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="index.html">Accueil</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+        </table>
+        <h2 id="grand-total">Total : 0.00 €</h2>
+        <button onclick="checkout()">Passer la commande</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Magasin de Bricolage</p>
+    </footer>
+    <script src="script panier.js" defer></script>
+</body>
+</html>
